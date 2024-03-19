@@ -1,0 +1,224 @@
+ 
+header{
+    
+    background:linear-gradient(#82D2CE,rgb(7, 7, 83));
+    text-align: center;
+    font-family: "Public Sans", sans-serif;
+   
+}
+.logo{
+    padding: 0.5em;
+    
+}
+
+.titulo{ font-family: "Public Sans", sans-serif;
+
+    font-size: 2em;
+    padding: 0.5em;
+    color: #82D2CE;
+    font-weight: bold;
+}
+body{
+    background-image: url(fondo2.jpg);
+
+
+  font-family: "Public Sans", sans-serif;
+}
+.main{
+    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:auto;
+    padding: 2em;
+
+}
+.campo-texto{
+    display: flex;
+    width:  20em;
+    padding: 13em 1em 4em;
+    border-color:rgb(12, 78, 134) ;
+    background-color:  transparent;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: #82D2CE;
+    color:#c8f5f3;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    font-family: "Public Sans", sans-serif;
+    resize: none;
+    
+}
+.mensaje{
+    display: flex;
+    width: 20em;
+    padding: 13em 1em 7em;
+    background-color: 
+    transparent;
+    border-radius: 8px;
+    border-color: #82D2CE;
+    border-style: groove;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color:#c8f5f3;
+    font-family: "Public Sans", sans-serif;
+    resize: none;
+}
+.maysculas{
+    text-align: center;
+    color: #c8f5f3;
+    font-size: 15pxs;
+    padding: 1em;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+}
+
+.btnEncriptar{
+    display: inline;
+    margin: 1em;
+    font-size: 15px;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color:transparent;
+    color: #c8f5f3;
+    cursor: pointer;
+    transition-duration: 500ms;
+    justify-content: baseline;
+    font-weight: bold;
+}
+
+
+.btnEncriptar:hover{
+box-shadow: 10px 10px 10px 10px #82D2CE;
+color: #82D2CE;
+font-weight: bold;
+}
+.btnDesencriptar{
+    margin: 1em;
+    font-size: 15px;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #c8f5f3;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.btnDesencriptar:hover{
+    box-shadow: 10px 10px 10px 10px #82D2CE;
+    color: #82D2CE;
+    font-weight: bold;
+    transition: 500ms;
+}
+.btnCopiar{
+    display: flex;
+    justify-content:center;
+    margin: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #c8f5f3;
+    cursor: pointer;
+    transition-duration: 500ms;
+
+}   
+.btnCopiar:hover{
+    box-shadow: 10px 10px 10px 10px #82D2CE;
+    color:#82D2CE;
+    font-weight: bold;
+}
+footer{
+background:linear-gradient(#82D2CE,rgb(7, 7, 83));
+  padding: 30% 0;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10em;
+  margin: 0;
+  width: 100%;
+  
+}
+.texto-pie-de-pagina{
+    font-size: 1.9em;
+    padding: 1.1em 0em;
+    color:#82D2CE;
+    font-weight: bold;
+    font-family: "Public Sans", sans-serif;
+ 
+  
+}
+.texto-pie-de-pagina:hover{
+    font-weight: bold;
+    transition: 400ms;
+   
+    
+}
+.Copyrigth{
+   color:#82D2CE;
+   font-family: "Public Sans", sans-serif;
+   font-weight: bold;
+   font-size: 15px;
+   margin-top: auto;
+}
+/* Estilos para dispositivos móviles (ancho de pantalla menor o igual a 768px) */
+@media screen and (max-width: 480px) {
+    .titulo{
+        font-size: 1em;
+    }
+    .main{
+        
+        
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin:auto;
+    }
+
+  
+    .mensaje{
+        width: 1em;
+        resize: none;
+        padding: 4em 10em;
+        resize: horizontal;
+    }
+    .campo-texto{
+        width: 1em; 
+       resize: horizontal;
+        padding: 4em 10em;
+        text-align: horizontal;
+    } 
+    .btn-encriptar{
+        display:inline-block;
+        margin: 1em;
+        font-size: 8px;
+        padding: 1em;
+        border-radius: 10px;
+        background-color: rgb(12, 78, 134);
+        color: #E9ECF8;
+        cursor: pointer;
+        transition-duration: 500ms;
+    }
+        .btn-desencriptar{
+            display: inline-block;
+            padding: 1em;
+            font-size: 8px;
+        }
+        .texto-pie-de-pagina{
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .Copyrigth{
+            padding: 1em;
+            font-size: 1em;
+        }
+        footer{
+            font-size: 1em;
+            background-color:#82D2CE;
+        
+    }
+}

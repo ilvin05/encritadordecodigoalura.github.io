@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>enscriptador-Alura</title>
+         <link rel="stylesheet" href="inscriptador.css">
+         <link rel="stylesheet" href="reset.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     </head>
+     <header>
+        <h1 class="logo"><img src="Logo.png" alt=""> </h1>
+        <p class=" titulo" class="titulo">Encriptador Alura Latam </p>
+     </header>
+        <body>
+                <main class="main">
+                        <section>
+                                <textarea id="texto-encriptado" class="campo-texto"
+                                    placeholder="Texto a encriptar"></textarea>
+                                    <div class="btn">
+                                        <p class="maysculas">Solo letras minusculas y sin acentos.</p>
+                                        <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                                        <button class="btnDesencriptar"onclick="btnDesencriptar()">Desencriptar</button>
+                                    </div>
+                        </section>
+                        <section class="campo-mensaje">
+                            <textarea id="campo-mensaje" class="mensaje" placeholder="Texto encriptado"></textarea>
+                            <section class="campo-copiar">
+                            <button class="btnCopiar"onclick="btnCopiar()">Copiar</button>
+                            </section>
+                           
+                        
+                        </section>
+             </main>
+             <script src="encriptador.js"></script>
+        </body>
+    <footer>
+        <p class="texto-pie-de-pagina">Oracle + Alura </p>
+        <p class="Copyrigth">&copy Copyrigth Ilvin Mordan-2024</p>
+    </footer>
+
+</html>
